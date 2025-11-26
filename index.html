@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Леви Аккерман - Человек-легенда</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">⚔️</div>
+            <div class="preloader-text">Загрузка Разведкорпуса...</div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/survey-corps-logo.png" alt="Эмблема Разведкорпуса" class="logo-img">
+                <span>Леви Аккерман</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">О персонаже</a></li>
+                <li><a href="#equipment">Снаряжение</a></li>
+                <li><a href="#skills">Способности</a></li>
+                <li><a href="#family">Семья</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Субтитры для аудио -->
+    <div id="subtitles" class="subtitles"></div>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in-up">Леви Аккерман</h1>
+            <p class="hero-subtitle fade-in-up delay-1">Самый сильный боец человечества</p>
+            <p class="hero-quote fade-in-up delay-2">"Решения, которые ты не можешь принять... Иногда они оказываются не такими уж и плохими"</p>
+            <div class="hero-badges fade-in-up delay-3">
+                <div class="badge">
+                    <span>Звание</span>
+                    <strong>Капитан</strong>
+                </div>
+                <div class="badge">
+                    <span>Корпус</span>
+                    <strong>Разведкорпус</strong>
+                </div>
+                <div class="badge">
+                    <span>Специализация</span>
+                    <strong>УПМ Мастер</strong>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+
+        <!-- Анимированные частицы -->
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- О персонаже -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О персонаже</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="fade-in-left">Леви Аккерман — капитан Разведывательного отряда, широко известный как "самый сильный солдат человечества". Его боевые навыки и тактическое мышление не имеют себе равных.</p>
+
+                    <div class="info-grid">
+                        <div class="info-item fade-in-left delay-1">
+                            <strong>Возраст:</strong>
+                            <span>30-35 лет</span>
+                        </div>
+                        <div class="info-item fade-in-left delay-2">
+                            <strong>Рост:</strong>
+                            <span>160 см</span>
+                        </div>
+                        <div class="info-item fade-in-left delay-3">
+                            <strong>Вес:</strong>
+                            <span>65 кг</span>
+                        </div>
+                        <div class="info-item fade-in-left delay-4">
+                            <strong>Родился:</strong>
+                            <span>Подземный город</span>
+                        </div>
+                        <div class="info-item fade-in-left delay-5">
+                            <strong>Звание:</strong>
+                            <span>Капитан</span>
+                        </div>
+                        <div class="info-item fade-in-left delay-6">
+                            <strong>Корпус:</strong>
+                            <span>Разведкорпус</span>
+                        </div>
+                    </div>
+
+                    <h3 class="fade-in-left delay-7">Биография</h3>
+                    <p class="fade-in-left delay-8">Родившись в подземном городе, Леви выживал в суровых условиях, что закалило его характер. Был замечен Эрвином Смитом и присоединился к Разведкорпусу, где быстро поднялся до звания капитана благодаря своим исключительным способностям.</p>
+
+                    <h3 class="fade-in-left delay-9">Характер</h3>
+                    <p class="fade-in-left delay-10">Суровый, молчаливый и прагматичный, но при этом заботится о своих подчинённых. Известен своей одержимостью чистотой. Обладает железной волей и непоколебимой преданностью делу защиты человечества.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/levi-main.jpg" alt="Леви Аккерман" class="profile-img floating clickable-image" data-image="main">
+                        <div class="image-glow"></div>
+                        <div class="click-hint">🎤 Нажмите для фразы</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Снаряжение -->
+    <section id="equipment" class="equipment">
+        <div class="container">
+            <h2 class="section-title">Боевое снаряжение</h2>
+            <div class="equipment-content">
+                <div class="equipment-main">
+                    <div class="equipment-card">
+                        <div class="equipment-icon">🛡️</div>
+                        <h3>Вертикальное маневренное оборудование (УПМ)</h3>
+                        <p>Специальное устройство, позволяющее солдатам быстро перемещаться в трёхмерном пространстве с помощью тросов и газовых баллонов.</p>
+                        
+                        <div class="equipment-specs">
+                            <h4>Компоненты системы:</h4>
+                            <ul>
+                                <li><strong>Газовые баллоны:</strong> Сжатый газ для маневрирования</li>
+                                <li><strong>Катушки с тросами:</strong> Прочные стальные тросы</li>
+                                <li><strong>Крепления:</strong> Поясные и ножные крепления</li>
+                                <li><strong>Клинки:</strong> Сменные лезвия из ультравысокоуглеродистой стали</li>
+                                <li><strong>Механизмы управления:</strong> Рукоятки и спусковые крючки</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="equipment-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">⚔️</div>
+                        <h4>Боевые клинки</h4>
+                        <p>Специальные лезвия, способные прорезать плотную кожу титанов. Каждый солдат носит до 8 запасных клинков.</p>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <div class="detail-icon">🎯</div>
+                        <h4>Система прицеливания</h4>
+                        <p>Уникальная система, позволяющая Леви с невероятной точностью рассчитывать траектории движения.</p>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <div class="detail-icon">👕</div>
+                        <h4>Форма Разведкорпуса</h4>
+                        <p>Коричневая куртка с эмблемой Разведкорпуса - Свободные Крылья. Белая рубашка и кожаные ремни для крепления УПМ.</p>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <div class="detail-icon">🎒</div>
+                        <h4>Дополнительное снаряжение</h4>
+                        <p>Сигнальные ракеты, аптечка, запасные баллоны с газом, инструменты для обслуживания оборудования.</p>
+                    </div>
+                </div>
+
+                <!-- Изображение снаряжения -->
+                <div class="equipment-visual">
+                    <div class="equipment-image-container">
+                        <img src="images/Equipment.jpg" alt="Снаряжение УПМ" class="equipment-img">
+                        <div class="equipment-caption">
+                            <h4>Полный комплект снаряжения УПМ</h4>
+                            <p>Газовые баллоны, тросы, клинки и крепления</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Способности -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Боевые способности</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚔️</div>
+                    <h3>Владение УПМ</h3>
+                    <p>Мастерское использование вертикального маневренного оборудования. Скорость и точность движений превосходят всех остальных солдат.</p>
+                    <!-- В разделе способностей обновляем статистику -->
+<div class="skill-stats">
+    <div class="stat">
+        <span>Скорость:</span>
+        <div class="stat-bar">
+            <div class="stat-progress" style="width: 98%">
+                <span class="stat-value">98%</span>
+            </div>
+        </div>
+    </div>
+    <div class="stat">
+        <span>Точность:</span>
+        <div class="stat-bar">
+            <div class="stat-progress" style="width: 99%">
+                <span class="stat-value">99%</span>
+            </div>
+        </div>
+    </div>
+</div>
+                <div class="skill-card">
+                    <div class="skill-icon">💪</div>
+                    <h3>Физическая подготовка</h3>
+                    <p>Невероятная сила, ловкость и выносливость. Способен сражаться с множеством титанов одновременно.</p>
+                    <div class="skill-stats">
+                        <div class="stat">
+                            <span>Сила:</span>
+                            <div class="stat-bar">
+                                <div class="stat-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <span>Выносливость:</span>
+                            <div class="stat-bar">
+                                <div class="stat-progress" style="width: 96%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Тактическое мышление</h3>
+                    <p>Блестящий стратег, способный быстро анализировать ситуацию и принимать верные решения в бою.</p>
+                    <div class="skill-stats">
+                        <div class="stat">
+                            <span>Стратегия:</span>
+                            <div class="stat-bar">
+                                <div class="stat-progress" style="width: 94%"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <span>Анализ:</span>
+                            <div class="stat-bar">
+                                <div class="stat-progress" style="width: 97%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">👑</div>
+                    <h3>Лидерство</h3>
+                    <p>Вдохновляет подчинённых личным примером. Жертвует собой ради спасения товарищей.</p>
+                    <div class="skill-stats">
+                        <div class="stat">
+                            <span>Командование:</span>
+                            <div class="stat-bar">
+                                <div class="stat-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <span>Авторитет:</span>
+                            <div class="stat-bar">
+                                <div class="stat-progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Семейные связи -->
+    <section id="family" class="family">
+        <div class="container">
+            <h2 class="section-title">Семейные связи</h2>
+            <div class="family-content">
+                <div class="family-info">
+                    <h3>Клан Аккерманов</h3>
+                    <p>Леви принадлежит к знаменитому клану Аккерманов - семье, обладающей уникальными боевыми способностями, которые пробуждаются в моменты сильного стресса или необходимости защитить кого-то.</p>
+                    
+                    <div class="family-members">
+                        <div class="member-card">
+                            <div class="member-image">
+                                <img src="images/Kennyackerman.webp" alt="Кени Аккерман" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h4>Кени Аккерман</h4>
+                                <p>Дядя Леви, бывший капитан Отряда военной полиции. Обучил Леви боевым искусствам и выживанию в подземном городе.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="member-card">
+                            <div class="member-image">
+                                <img src="images/Mikasa.jpg" alt="Микаса Аккерман" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h4>Микаса Аккерман</h4>
+                                <p>Двоюродная сестра Леви. Одна из самых сильных бойцов Разведкорпуса, также обладающая способностями клана Аккерманов.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="family-abilities">
+                        <h4>Способности клана Аккерманов:</h4>
+                        <ul>
+                            <li>Сверхчеловеческая сила, скорость и рефлексы</li>
+                            <li>Интуитивное владение любым оружием</li>
+                            <li>Способность "пробуждаться" в критические моменты</li>
+                            <li>Иммунитет к эффектам памяти титанов</li>
+                            <li>Молниеносная реакция и тактическое мышление</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="family-visual">
+                    <div class="family-tree">
+                        <div class="tree-node main">
+                            <div class="node-content">
+                                <strong class="clan-title">Клан Аккерманов</strong>
+                                <small>Легендарная семья воинов</small>
+                            </div>
+                        </div>
+                        <div class="tree-branch"></div>
+                        <div class="tree-nodes">
+                            <div class="tree-node">
+                                <div class="node-content">
+                                    <span>Кени Аккерман</span>
+                                    <small>Дядя, наставник</small>
+                                </div>
+                            </div>
+                            <div class="tree-node">
+                                <div class="node-content">
+                                    <span>Леви Аккерман</span>
+                                    <small>Капитан Разведкорпуса</small>
+                                </div>
+                            </div>
+                            <div class="tree-node">
+                                <div class="node-content">
+                                    <span>Микаса Аккерман</span>
+                                    <small>Элитный боец</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-card">
+                        <div class="image-hover-container">
+                            <img src="images/levi-main.jpg" alt="Леви Аккерман" class="gallery-img hover-scale clickable-image" data-image="gallery1">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Капитан Разведкорпуса</h3>
+                            <p>В полной боевой готовности</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-card">
+                        <div class="image-hover-container">
+                            <img src="images/levi-battle.jpg" alt="Леви в бою" class="gallery-img hover-scale clickable-image" data-image="gallery2">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>В бою</h3>
+                            <p>Использование маневренного оборудования</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-card">
+                        <div class="image-hover-container">
+                            <img src="images/levi-command.jpg" alt="Леви командует" class="gallery-img hover-scale clickable-image" data-image="gallery3">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Командование</h3>
+                            <p>Лидер Разведкорпуса</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-card">
+                        <div class="image-hover-container">
+                            <img src="images/Equipment.jpg" alt="Снаряжение Леви" class="gallery-img hover-scale clickable-image" data-image="gallery4">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Боевое снаряжение</h3>
+                            <p>Вертикальное маневренное оборудование</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-card">
+                        <div class="image-hover-container">
+                            <img src="images/Mikasa.jpg" alt="Микаса Аккерман" class="gallery-img hover-scale clickable-image" data-image="gallery5">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Микаса Аккерман</h3>
+                            <p>Двоюродная сестра, союзник</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-card">
+                        <div class="image-hover-container">
+                            <img src="images/Levis_squad.jpg" alt="Отряд Леви" class="gallery-img hover-scale clickable-image" data-image="gallery6">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Отряд Леви</h3>
+                            <p>Специальный оперативный отряд</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Связь с Разведкорпусом</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Штаб-квартира Разведкорпуса</h3>
+                    <div class="contact-item fade-in-right">
+                        <strong>📍 Местоположение:</strong>
+                        <span>Стена Роза, округ Трост</span>
+                    </div>
+                    <div class="contact-item fade-in-right delay-1">
+                        <strong>⚡ Статус:</strong>
+                        <span>Активная служба</span>
+                    </div>
+                    <div class="contact-item fade-in-right delay-2">
+                        <strong>🎯 Задача:</strong>
+                        <span>Исследование внешнего мира и защита человечества</span>
+                    </div>
+                    <div class="contact-item fade-in-right delay-3">
+                        <strong>📞 Экстренная связь:</strong>
+                        <span>Сигнальные ракеты</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Отправить сообщение</h3>
+                    <!-- ЗАМЕНИТЕ YOUR_FORM_ID на ваш ID из Formspree -->
+                    <form action="https://formspree.io/f/xyzoqvyn" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Ваше имя" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Ваш email" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <select name="subject" required class="form-input">
+                                <option value="">Выберите тему</option>
+                                <option value="report">Доклад о титанах</option>
+                                <option value="join">Вступление в корпус</option>
+                                <option value="info">Запрос информации</option>
+                                <option value="equipment">Вопросы по снаряжению</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Ваше сообщение..." rows="5" required class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="btn pulse">Отправить в штаб</button>
+                    </form>
+                    <div id="formMessage" class="success-message" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/survey-corps-logo.png" alt="Эмблема Разведкорпуса" class="logo-img">
+                    <span>Разведывательный корпус</span>
+                </div>
+                <div class="footer-info">
+                    <p>"Пожертвуйте своими сердцами!"</p>
+                    <p>© <span id="currentYear"></span> Человечество. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cursor follower -->
+    <div class="cursor-follower"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

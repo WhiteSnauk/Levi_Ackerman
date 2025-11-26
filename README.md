@@ -8,8 +8,6 @@
 
 A responsive and interactive tribute website dedicated to Levi Ackerman from Attack on Titan (Shingeki no Kyojin). This project showcases Levi's character, abilities, equipment, and family background with modern web design techniques.
 
-![Website Preview](images/levi-main.jpg)
-
 ## 🌟 Features
 
 ### ✨ Interactive Elements
